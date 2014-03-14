@@ -35,7 +35,7 @@ public class MainActivity extends Activity {
 		snd.play(tasersound);
     	Log.i("---","Button1");
     	Vibrator vibrator =(Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
-    	vibrator.vibrate(50);
+    	vibrator.vibrate(1200);
     }
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
